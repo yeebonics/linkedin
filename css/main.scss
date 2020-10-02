@@ -457,13 +457,13 @@ header {
         width: 24px; height: 24px;
     }
     &.user {
-        background-image: url("/img/picture-user.jpg")
+        background-image: url("img/picture-user.jpg")
     }
     &.troy {
-        background-image: url("/img/picture-troy.jpg")
+        background-image: url("img/picture-troy.jpg")
     }
     &.jeff {
-        background-image: url("/img/picture-jeff.jpg")
+        background-image: url("img/picture-jeff.jpg")
     }
     position: relative;
     .status-icon {
