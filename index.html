@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LinkedIn | Meetings</title>
+	<meta charset="UTF-8">
+	<meta charset="UTF-8">
+	<meta property="og:title" content="LinkedIn Meetings Design"/>
+	<meta property="og:image" content="img/mockup.jpg"/>
+	<meta property="og:description" content="Designing a new feature for a post COVID-19 Hiring Landscape"/>
+	<meta property="og:url" content="https://yeebonics.github.io/linkedin/"/>
+	<meta property='og:type' content='website'/>
+	<link rel="icon" href="assets/linkedin-favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+	<div id="content">
+		<header>
+			<div class="header-container">
+				<img id="search-bar" src="img/nav-search.jpg" alt="LinkedIn search bar image">
+				<div class="nav-links">
+					<img class="link-picture" src="img/nav-links-left.jpg" alt="LinkedIn navigation links">
+					<div id="link-meetings">
+						<div class="link-container">
+							<img src="assets/meetings-icon-active.png" alt="Meetings Icon">
+							<p>Meetings</p>
+						</div>
+						<div class="active-bar"></div>
+					</div>
+					<img class="link-picture" src="img/nav-links-right.png" alt="LinkedIn navigation links">
+
+				</div>
+			</div>
+		</header>
+
+		<div id="page">
+			<div class="section-header">
+				<h3><span class="highlight">Try the Schedule Function</span> - Click the schedue button to send a meeting invitation</h3>
+			</div>
+			<div id="meetings">
+				<div class="col">
+
+						<div id="meetings-calendar" class="meeting-holder">
+							<div class="section-title">
+								<h2>Meetings</h2>
+								<div class="calendar-tabs">
+									<div class="pill active">
+										<p>Pending</p>
+									</div>
+									<div class="pill">
+										<p>Scheduled</p>
+									</div>
+								</div>
+							</div>
+						
+							<div id="meetings-container">
+								<div id="Pending" class="cal-container active">
+									<div class="holder-text">You have no pending meetings</div>
+									
+									<div id="meeting1" class="meeting-section">
+										<div class="prof-pic lrg user"></div>
+										<div  class="meeting-details">
+											<p class="title">Weekly Coffee Meetup</p>
+											<p>To: Troy Barnes</p>
+											<p class="date">Wed Sep 21, 2020 1pm - 2:30pm</p>
+											<div class="row-participants">
+												<div class="prof-pic sm user"></div>
+												<div class="prof-pic sm troy"></div>
+											</div>
+											<p class="send-date">Sent Today</p>
+										</div>
+										
+										<div class="more">
+											<img src="assets/icon-more-blk.png" alt="more icon">
+										</div>
+									</div>
+									<div id="meeting2" class="meeting-section">
+										<div class="prof-pic lrg jeff"></div>
+										<div  class="meeting-details">
+											<p class="title">Shirley Bennet - Portfolio Review</p>
+											<p>To: You</p>
+											<p class="date">Fri Sep 23, 2020 3pm - 4:30pm</p>
+											<div class="row-participants">
+												<div class="prof-pic sm jeff"></div>
+												<div class="prof-pic sm user"></div>
+											</div>
+											<p class="send-date">Sent Today</p>
+										</div>
+										
+										<div class="more">
+											<img src="assets/icon-more-blk.png" alt="more icon">
+										</div>
+									</div>
+
+								</div>
+								
+								<div id="Scheduled" class="cal-container">
+									<div id="empty-schedule" class="holder-text">You have no scheduled meetings</div>
+									<div id="scheduled1" class="meeting-section">
+										<div class="prof-pic lrg jeff"></div>
+										<div  class="meeting-details">
+											<p class="title">Shirley Bennet - Portfolio Review</p>
+											<p>To: You</p>
+											<p class="date">Fri Sep 23, 2020 3pm - 4:30pm</p>
+											<div class="row-participants">
+												<div class="prof-pic sm jeff"></div>
+												<div class="prof-pic sm user"></div>
+											</div>
+										</div>
+										
+										<div class="more">
+											<img src="assets/icon-more-blk.png" alt="more icon">
+										</div>
+									</div>
+								</div>
+
+							</div>
+							
+					</div>
+				
+				</div>
+
+					<div id="meetings-schedule" class="meeting-holder">
+						<div class="section-title">
+							<h2>Schedule a meeting</h2>
+						</div>
+						<div class="form-container">
+							<section>
+								<div class="form-input">
+									<p class="input-title">Event Name</p>
+									<p id="input-event" class="input">Weekly Coffee Meetup</p>
+								</div>
+
+								<div class="form-input">
+									<p class="input-title">Description </p>
+									<p id="input-desc" class="input">Meeting to discuss possible changes to the current iteration of the style guide</p>
+								</div>
+
+								<div class="form-input">
+									<p class="input-title">Add Participants </p>
+									<p class="input inactive">Type a name or multiple names...</p>
+								</div>
+								<div class="input-pill">
+									<div class="participant-name">Troy Barnes</div>
+									<img src="assets/icon-x-grey.png" alt="X icon grey">
+								</div>
+							</section>
+							<section>
+								<div class="form-input">
+									<p class="input-title">When </p>
+									<div class="input-row">
+										<p id="form-date" class="input">09 / 21 / 2020</p>
+										<img src="assets/icon-date-blue.png" alt="blue Calendar icon">
+										<p class="input icon fourth"><span id="form-time"> 1:00 </span> <img class="arr-down" src="assets/icon-input-arrow.png" alt="Down arrow icon"></p>
+										<p class="input icon fourth">PM <img class="arr-down" src="assets/icon-input-arrow.png" alt="Down arrow icon"></p>
+									</div>
+								</div>
+								<div class="form-input">
+									<p class="input-title">Duration </p>
+									<div class="input-row">
+										<p class="input icon half"><span id="form-hour"> 1 Hour </span> <img class="arr-down" src="assets/icon-input-arrow.png" alt="Down arrow icon"></p>
+										<p class="input icon half"><span id="form-minutes"> 30 Minutes </span>  <img class="arr-down" src="assets/icon-input-arrow.png" alt="Down arrow icon"></p>
+									</div>
+								</div>
+
+								<div class="form-input">
+									<p class="input-title">Time Zone </p>
+									<p class="input time-zone">(GMT-4:00) Eastern Time (US and Canada) <img class="arr-down" src="assets/icon-input-arrow.png" alt="Down arrow icon"></p>
+								</div>
+							</section>
+							<section>
+								<div class="form-input">
+									<p class="input-title">Meeting Type </p>
+									<div class="radio-container">
+										<div class="radio">
+											<div class="radio-select active"></div>
+											<p>Video Chat</p>
+										</div>
+									
+										<div class="radio">
+											<div class="radio-select"></div>
+											<p>Audio Only</p>
+										</div>
+									</div>
+								</div>
+							</section>
+							<div class="schedule-buttons">
+								<div class="btn-container">
+									<div class="btn">Clear</div>
+									<div id="submit" class="btn">
+										<div class="btn-text">Schedule</div>
+										<div id="loader"></div>
+										<img id="success-check" src="assets/icon-check.png" alt="Check Icon">
+									 </div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="col">
+						<div id="instructions" class="meeting-holder">
+							<div class="section-title">
+								<h2>Test Instructions</h2>
+							</div>
+							<div class="container">
+								<div class="holder-text left">
+									<p>Go through the form and let us know if there's any other information you would need to schedule a meeting</p>
+									<p>When you're finished, click the <span class="highlight">Schedule Button</span> and let us know what you think of the following interaction.</p>
+								</div>
+							</div>
+						</div>
+						<div class="divider"></div>
+						<img id="footer-img" src="assets/linkedin-footer.png" alt="LinkedIn footer image">
+					</div>
+				</div>
+		</div>
+
+	</div>
+
+		<footer>
+				<div id="message-box">
+					<div class="message-status">
+						<div class="prof-pic md user">
+							<div class="status-icon"></div>
+						</div>
+						<h3>Messaging</h3>
+					</div>
+				
+					<div class="messaging-icons">
+						<img src="assets/icon-edit.png" alt="edit icon">
+						<img src="assets/icon-more.png" alt="more icon">
+						<img src="assets/icon-arrow.png" alt="arrow icon">
+					</div>
+				</div>
+	
+				<div id="chat1" class="chat">
+					<header>
+						<div class="header-row">
+							<div class="status-row">
+								<img src="assets/icon-online.png" alt="Online Status Indicator">
+								<div class="status-text">Online</div>
+							</div>
+							<div class="username">Troy Barnes</div>
+						</div>
+						<div class="icon-row">
+							<img src="assets/icon-x.png" alt="Close Icon">
+							<img class="toggle-icon" src="assets/icon-more.png" alt="more icon">
+							<img class="toggle-icon" src="assets/icon-resize.png" alt="more icon">
+						</div>
+					</header>
+					<div id="test" class="msg-content">
+						<div class="msg">
+							<div class="time-header">
+								<p class="date"><span> Today</span></p>
+							</div>
+							
+							<div class="message">
+								<div class="prof-pic lrg troy"></div>
+								<div class="user-message">
+									<div class="user-header">
+										<p><span class="user-name">Troy Barnes</span><span class="time"> · 7:36am</span></p>
+										<p class="msg-text">
+											Thank you for testing our prototype! Try the <span class="emphasis">scheduling function</span> after checking out the form fields. Any feedback is appreciated.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div id="meeting-message" class="message">
+								<div class="prof-pic lrg user"></div>
+								<div class="user-message">
+									<div class="user-header">
+										<p><span class="user-name">Shirley Bennet</span> · <span id="time1" class="time">12:36pm</span></p>
+										<div class="msg-text meeting">
+											<div class="event-name">Invitation: Weekly Coffee Meetup</div>
+											<p class="description">
+												Meeting to discuss possible changes to the current iteration of the style guide
+											</p>
+											<p class="meeting-title">Participants</p>
+											<p>Shirley &amp; Troy</p>
+											<p class="meeting-title">When</p>
+											<p>Wed Sep 23, 2020 1pm - 1:30pm <br> Pacific Time Los Angeles</p>
+											<p class="meeting-title">Type</p>
+											<p>Video Chat</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="meeting-confirmation">
+								You have invited Troy to a meeting
+							</div>
+						
+						</div>
+						
+					
+						<footer>
+							<img class="footer-img" src="img/chat-footer.jpg" alt="">
+						</footer>
+					</div>
+				</div>
+
+				<div id="chat2" class="chat notification">
+					<header>
+						<div class="header-row">
+							<div class="status-row">
+								<img src="assets/icon-online.png" alt="Online Status Indicator">
+								<div class="status-text">Online</div>
+							</div>
+							<div class="username">Jeffrey Winger </div>
+							<img id="chat-notification" src="assets/chat-notification.png" alt="Notification alert">
+						</div>
+						<div class="icon-row">
+							<img src="assets/icon-x-wht.png" alt="Close Icon">
+							<img class="toggle-icon" src="assets/icon-more.png" alt="more icon">
+							<img class="toggle-icon" src="assets/icon-resize.png" alt="more icon">
+						</div>
+					</header>
+					<div class="msg-content">
+						<div class="msg">
+							<div class="time-header">
+								<p class="date"><span> Today</span></p>
+							</div>
+							
+							<div class="message">
+								<div class="prof-pic lrg jeff"></div>
+								<div class="user-message">
+									<div class="user-header">
+										<p><span class="user-name">Jeffrey Winger</span> · <span id="time1" class="time"></span></p>
+										<div class="msg-text meeting">
+											<div class="event-name">Shirley Bennet - Portfolio Review</div>
+											<p class="description">
+												Second Round: Walk me through 2-3 of your favorite projects. I'm most interested in process, and how you came up with your solutions.
+											</p>
+											<p class="meeting-title">Participants</p>
+											<p>Jeffrey &amp; Shirley</p>
+											<p class="meeting-title">When</p>
+											<p>Fri Sep 23, 2020 3pm - 4:30pm <br> Pacific Time Los Angeles</p>
+											<p class="meeting-title">Type</p>
+											<p>Video Chat</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="meeting-pill-container">
+								<div id="pill-accept" class="meeting-pill">
+									Accept
+								</div>
+								<div id="pill-decline" class="meeting-pill">
+									Decline
+								</div>
+
+							</div>
+							<div id="confirmation2"class="meeting-confirmation">
+								Jeffrey has invited you to a meeting
+							</div>
+						
+						</div>
+						
+					
+						<footer>
+							<img class="footer-img" src="img/chat-footer.jpg" alt="">
+						</footer>
+					</div>
+				</div>
+
+			
+			
+		
+		</footer>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
