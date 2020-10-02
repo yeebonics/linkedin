@@ -497,6 +497,7 @@ header .header-container #search-bar {
   padding: 0 12px;
   font-size: 14px;
   color: #535353;
+  max-width: 200px;
 }
 
 .meeting-section .meeting-details p {
