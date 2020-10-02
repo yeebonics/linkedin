@@ -30,6 +30,10 @@ $(".meeting-pill").on("click", function (e) {
   }
   $("#meeting2").css("display", "none");
   $(".meeting-pill-container, #empty-schedule").remove();
+
+  $('#header-em').text("That's the end of our test")
+  $('#header-text').text(" - help us out by answering our quick survey!")
+  $("#instructions-text").html("<span class='highlight'>We want to hear from you</span> message us or answer our quick survey");
   setTimeout(() => {
     $(".overlay").addClass("active");
   }, 1000);
@@ -82,10 +86,11 @@ $("#submit").on("click", function () {
     $("#chat2").css("display", "block")
     $("#meeting2").css("display", "flex")
   }, 6000);
-  // if the user doesn't interact with the pill button render the survey
-  setTimeout(() => {
-    $(".overlay").addClass("active");
-  }, 10000);
+
+  $('#header-em').text("Answer Jeffrey's Invitation")
+  $('#header-text').text(" - accept or decline his meeting invitation")
+  $("#instructions-text").html("<span class='highlight'>Try the scheduling function</span> by accepting or declining Jeffrey's invitation");
+
 })
 
 
