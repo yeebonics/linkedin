@@ -3,6 +3,7 @@
 <head>
 	<title>LinkedIn | Meetings</title>
 	<meta charset="UTF-8">
+	<meta charset="UTF-8">
 	<meta property="og:title" content="LinkedIn Meetings Design"/>
 	<meta property="og:image" content="img/mockup.jpg"/>
 	<meta property="og:description" content="Designing a new feature for a post COVID-19 Hiring Landscape"/>
@@ -31,6 +32,7 @@
 				</div>
 			</div>
 		</header>
+
 
 		<div id="page">
 			<div class="section-header">
@@ -76,7 +78,7 @@
 									<div id="meeting2" class="meeting-section">
 										<div class="prof-pic lrg jeff"></div>
 										<div  class="meeting-details">
-											<p class="title">Shirley Bennet - Portfolio Review</p>
+											<p class="title">Invitation: Shirley Bennet - Portfolio Review</p>
 											<p>To: You</p>
 											<p class="date">Fri Sep 23, 2020 3pm - 4:30pm</p>
 											<div class="row-participants">
@@ -98,7 +100,7 @@
 									<div id="scheduled1" class="meeting-section">
 										<div class="prof-pic lrg jeff"></div>
 										<div  class="meeting-details">
-											<p class="title">Shirley Bennet - Portfolio Review</p>
+											<p class="title">Invitation: Shirley Bennet - Portfolio Review</p>
 											<p>To: You</p>
 											<p class="date">Fri Sep 23, 2020 3pm - 4:30pm</p>
 											<div class="row-participants">
@@ -309,7 +311,7 @@
 							<img id="chat-notification" src="assets/chat-notification.png" alt="Notification alert">
 						</div>
 						<div class="icon-row">
-							<img src="assets/icon-x.png" alt="Close Icon">
+							<div class=" close"></div>
 							<img class="toggle-icon" src="assets/icon-more.png" alt="more icon">
 							<img class="toggle-icon" src="assets/icon-resize.png" alt="more icon">
 						</div>
@@ -361,11 +363,25 @@
 						</footer>
 					</div>
 				</div>
-
-			
-			
-		
 		</footer>
+		<div class="overlay">
+			<div class="modal">
+				<div class="modal-header row space-between">
+						<h2 class="section-title"> We want to hear from you</h2>
+					<div class="close close-modal"></div>
+				</div>
+				<div class="modal-body">
+					<p>If you want to help us further develop this feature, fill out our quick (4) question survey to help us learn more about your experience. </p>
+				</div>
+				<div class="modal-btn-container">
+					<div class="modal-btn close-modal">Cancel</div>
+					<a href="https://forms.gle/ADZWSCyuG38xZxSy5" target="_blank">
+						<div id="to-survey"class="modal-btn">Take Survey</div>
+					</a>
+				</div>
+			
+			</div>
+		</div>
 
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/main.js"></script>
