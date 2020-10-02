@@ -5,7 +5,6 @@ $(".pill").on("click", function () {
 
   $(".cal-container").removeClass("active");
   $("#" + pillText).addClass("active");
-  
 })
 
 $("#chat2").on("click", function () {
@@ -31,6 +30,9 @@ $(".meeting-pill").on("click", function (e) {
   }
   $("#meeting2").css("display", "none");
   $(".meeting-pill-container, #empty-schedule").remove();
+  setTimeout(() => {
+    $(".overlay").addClass("active");
+  }, 1000);
  
  
 })
@@ -80,5 +82,13 @@ $("#submit").on("click", function () {
     $("#chat2").css("display", "block")
     $("#meeting2").css("display", "flex")
   }, 6000);
+  // if the user doesn't interact with the pill button render the survey
+  setTimeout(() => {
+    $(".overlay").addClass("active");
+  }, 10000);
 })
 
+
+$(".close-modal, .modal-btn").on("click", function () {
+  $(".overlay").removeClass("active");
+})
